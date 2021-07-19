@@ -5,7 +5,7 @@ const PersonCard = (props) => {
     <div className="container">
       <h2>{props.lastName}, {props.firstName}</h2>
       <p>Age: {props.age}</p>
-      <p>Hair Color: {props.hairColor}</p>
+      <p>Hair Color: {props.hair}</p>
     </div>
   );
 }
